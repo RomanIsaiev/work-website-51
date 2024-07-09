@@ -3,12 +3,1039 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Your money karma</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-first-container">
+          <div class="header-start-container">
+            <p class="header-course">онлайн-курс</p>
+            <p class="header-course">СТАРТ 24 июня</p>
+          </div>
+          <div class="header-title-container">
+            <h1 class="header-title">Ваша денежная карма</h1>
+            <p class="header-subtitle">
+              Как узнать «Где ваши деньги», пробить «стеклянный потолок» и выйти
+              на новый финансовый уровень
+            </p>
+          </div>
+        </div>
+        <div class="advantages-container">
+          <ul class="advantages-list list">
+            <li class="advantages-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/advan-image-01-1x.png 1x,
+                    ./src/img/header/advan-image-01-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="46"
+                  height="46" />
+                <img
+                  class="advan-image"
+                  src="./src/img/header/advan-image-01-1x.png"
+                  alt="emoji"
+                  width="46"
+                  height="46" /></picture
+              >Без магии и ритуалов
+            </li>
+            <li class="advantages-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/advan-image-02-1x.png 1x,
+                    ./src/img/header/advan-image-02-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="46"
+                  height="46" />
+                <img
+                  class="advan-image"
+                  src="./src/img/header/advan-image-02-1x.png"
+                  alt="emoji"
+                  width="46"
+                  height="46" /></picture
+              >Опираясь на карту рождения
+            </li>
+            <li class="advantages-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/advan-image-03-1x.png 1x,
+                    ./src/img/header/advan-image-03-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="46"
+                  height="46" />
+                <img
+                  class="advan-image"
+                  src="./src/img/header/advan-image-03-1x.png"
+                  alt="emoji"
+                  width="46"
+                  height="46" /></picture
+              >Применяя скрытые таланты
+            </li>
+            <li class="advantages-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/advan-image-04-1x.png 1x,
+                    ./src/img/header/advan-image-04-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="46"
+                  height="46" />
+                <img
+                  class="advan-image"
+                  src="./src/img/header/advan-image-04-1x.png"
+                  alt="emoji"
+                  width="46"
+                  height="46" /></picture
+              >Реализуя предназначение
+            </li>
+          </ul>
+        </div>
+        <div class="header-button-container">
+          <a class="header-button link" href="">зарегистрироваться</a>
+          <div class="header-sale-mark">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/header/header-mark-1x.png 1x,
+                  ./src/img/header/header-mark-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="68"
+                height="68" />
+              <img
+                class="sale-mark"
+                src="./src/img/header/header-mark-1x.png"
+                alt="sale"
+                width="68"
+                height="68"
+            /></picture>
+            <p class="sale-number">-90%</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="bonus">
+        <div class="container">
+          <div class="bonus-container">
+            <p class="bonus-title">🎁 Бонусы 🎁</p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-image-1x.png 1x,
+                  ./src/img/bonus/bonus-image-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="235"
+                height="235" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-image-1x.png"
+                alt="bonus"
+                width="235"
+                height="235"
+            /></picture>
+            <ul class="bonus-list list">
+              <li class="bonus-item">
+                <span>Вебинар</span> “Как с 0 получить профессию астролога и
+                начать зарабатывать от 3000$”
+              </li>
+              <li class="bonus-item">
+                <span>Мастер-класс</span> “Разрешаю себе быть Богатой”
+              </li>
+            </ul>
+            <div id="countdown-one" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-why">
+        <div class="container">
+          <ul class="why-list list">
+            <li class="why-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/why/why-item-image-01.png 1x,
+                    ./src/img/why/why-item-image-01.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="32"
+                  height="32" />
+                <img
+                  class="why-image"
+                  src="./src/img/why/why-item-image-01.png"
+                  alt="emoji"
+                  width="32"
+                  height="32"
+              /></picture>
+              Почему у кого-то денег в достатке или даже избытке, а у меня вечно
+              не хватает?
+            </li>
+            <li class="why-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/why/why-item-image-01.png 1x,
+                    ./src/img/why/why-item-image-01.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="32"
+                  height="32" />
+                <img
+                  class="why-image"
+                  src="./src/img/why/why-item-image-01.png"
+                  alt="emoji"
+                  width="32"
+                  height="32"
+              /></picture>
+              Почему кому-то они достаются легко, а мне сложно?
+            </li>
+            <li class="why-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/why/why-item-image-01.png 1x,
+                    ./src/img/why/why-item-image-01.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="32"
+                  height="32" />
+                <img
+                  class="why-image"
+                  src="./src/img/why/why-item-image-01.png"
+                  alt="emoji"
+                  width="32"
+                  height="32"
+              /></picture>
+              Как выйти на новый финансовый уровень и не “упахаться”?
+            </li>
+            <li class="why-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/why/why-item-image-01.png 1x,
+                    ./src/img/why/why-item-image-01.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="32"
+                  height="32" />
+                <img
+                  class="why-image"
+                  src="./src/img/why/why-item-image-01.png"
+                  alt="emoji"
+                  width="32"
+                  height="32"
+              /></picture>
+              Могу ли я быть Богатой и сколько вообще мне положено по карме?
+            </li>
+            <li class="why-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/why/why-item-image-01.png 1x,
+                    ./src/img/why/why-item-image-01.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="32"
+                  height="32" />
+                <img
+                  class="why-image"
+                  src="./src/img/why/why-item-image-01.png"
+                  alt="emoji"
+                  width="32"
+                  height="32"
+              /></picture>
+              Деньги это про свободу или зависимость?
+            </li>
+            <li class="why-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/why/why-item-image-01.png 1x,
+                    ./src/img/why/why-item-image-01.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="32"
+                  height="32" />
+                <img
+                  class="why-image"
+                  src="./src/img/why/why-item-image-01.png"
+                  alt="emoji"
+                  width="32"
+                  height="32"
+              /></picture>
+              Как пробить “стеклянный потолок”?
+            </li>
+          </ul>
+          <p class="why-desc-title">
+            Такие или похожие вопросы задавала себе каждая из нас
+          </p>
+          <p class="why-desc">
+            Окружение, образование и даже жизненный опыт не способны на них
+            ответить🤷
+          </p>
+        </div>
+      </section>
+      <section class="map">
+        <div class="container">
+          <div class="map-title-container">
+            <h2 class="map-title">А вот ваша</h2>
+            <p class="map-subtitle">Натальная Карта,</p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/map/map-title-image-1x.png 1x,
+                  ./src/img/map/map-title-image-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="68"
+                height="68" />
+              <img
+                class="map-title-image"
+                src="./src/img/map/map-title-image-1x.png"
+                alt="memoji"
+                width="68"
+                height="68"
+            /></picture>
+          </div>
+          <p class="natal-map-text">
+            это лучший источник информации и инструмент, на который мы можем
+            уверенно опираться при выборе сферы деятельности, работы, бизнеса и
+            т.п.
+          </p>
+          <div class="natal-map-wrapper">
+            <p class="natal-desc">
+              Там точно есть ответы на вопросы <br />
+              <span>“Что? Где? Когда? И с кем?”</span> <br />
+              <br />
+              Там есть все ответы - бери и делай!
+            </p>
+          </div>
+          <div class="nomagic-title-container">
+            <h2 class="map-title">И это точно</h2>
+            <p class="map-subtitle">не про магию</p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/map/nomagic-image-1x.png 1x,
+                  ./src/img/map/nomagic-image-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="32"
+                height="32" />
+              <img
+                class="nomagic-title-image"
+                src="./src/img/map/nomagic-image-1x.png"
+                alt="emoji"
+                width="32"
+                height="32"
+            /></picture>
+          </div>
+          <p class="natal-map-text">
+            Это про то, куда и когда направить свои усилия, чтобы получить
+            наилучший результат, с наименьшим количеством потерь, самым
+            органичным и как следствие, легким образом.
+          </p>
+          <div class="sometime-wrapper">
+            <p class="sometime-title">Это как низко висящие фрукты🍎</p>
+            <ul class="sometime-list list">
+              <li class="sometime-item">
+                Иногда нужно просто протянуть руку и сорвать самый спелый и
+                сочный плод. А мы вместо этого карабкаемся на верхушку, сбивая
+                колени.
+              </li>
+              <li class="sometime-item">
+                Сейчас нужно сделать очень простой и в то же время, самый важный
+                шаг – познакомиться со своей персональной инструкцией на эту
+                жизнь. 
+              </li>
+              <li class="sometime-item">
+                И благодаря курсу “Ваша денежная карма” вы сделаете первые,
+                фундаментальные шаги на пути к финансовой свободе и
+                независимости💵
+              </li>
+            </ul>
+          </div>
+          <div class="register-container">
+            <p class="register-title">Регистрируйтесь,</p>
+            <p class="register-text">
+              пока действует первая цена и забирайте бонусы
+            </p>
+            <p class="register-text">
+              Их ценность несоизмерима с той ценой, которую я сейчас поставила
+              за этот курс
+            </p>
+            <p class="register-text">👇🏼👇🏼👇🏼</p>
+          </div>
+          <div class="header-button-container">
+            <a class="header-button link" href="">зарегистрироваться</a>
+            <div class="header-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/header-mark-1x.png 1x,
+                    ./src/img/header/header-mark-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="68"
+                  height="68" />
+                <img
+                  class="sale-mark"
+                  src="./src/img/header/header-mark-1x.png"
+                  alt="sale"
+                  width="68"
+                  height="68"
+              /></picture>
+              <p class="sale-number">-90%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bonus">
+        <div class="container">
+          <div class="bonus-container">
+            <p class="bonus-title">🎁 Бонусы 🎁</p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-image-1x.png 1x,
+                  ./src/img/bonus/bonus-image-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="235"
+                height="235" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-image-1x.png"
+                alt="bonus"
+                width="235"
+                height="235"
+            /></picture>
+            <ul class="bonus-list list">
+              <li class="bonus-item">
+                <span>Вебинар</span> “Как с 0 получить профессию астролога и
+                начать зарабатывать от 3000$”
+              </li>
+              <li class="bonus-item">
+                <span>Мастер-класс</span> “Разрешаю себе быть Богатой”
+              </li>
+            </ul>
+            <div id="countdown-two" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="author">
+        <div class="container">
+          <div class="author-container">
+            <div class="author-text-container">
+              <div class="author-title-container">
+                <h2 class="author-title">Несколько слов</h2>
+                <p class="author-subtitle">об авторе</p>
+              </div>
+              <div class="author-image-container">
+                <picture
+                  ><source
+                    srcset="
+                      ./src/img/author/author-image-1x.png 1x,
+                      ./src/img/author/author-image-2x.png 2x
+                    "
+                    media="(min-width: 320px)"
+                    width="617"
+                    height="827" />
+                  <img
+                    class="author-image"
+                    src="./src/img/author/author-image-1x.png"
+                    alt="author"
+                    width="617"
+                    height="827"
+                /></picture>
+              </div>
+              <h3 class="auhtor-name">виктория бардадым</h3>
+              <ul class="auhtor-list">
+                <li class="author-item">
+                  Астролог, нумеролог с 15 летней практикой
+                </li>
+                <li class="author-item">
+                  Провела около 10000 личных консультаций
+                </li>
+                <li class="author-item">Курсы прошли более 15000 человек</li>
+                <li class="author-item">
+                  Успешная, реализованная,<br />
+                  самодостаточная женщина
+                </li>
+                <li class="author-item">Счастливая жена и мама</li>
+              </ul>
+            </div>
+          </div>
+          <div class="author-desc-container">
+            <p class="author-desc-text">
+              Астрология - это единственный инструмент, который дан нам “Высшими
+              силами”, как инструкция на жизнь. Пользуетесь ли вы своей
+              инструкцией или живете “вслепую”
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="result">
+        <div class="container">
+          <div class="result-wrapper">
+            <picture
+              ><source
+                srcset="
+                  ./src/img/result/result-wrapper-1x.png 1x,
+                  ./src/img/result/result-wrapper-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="174"
+                height="165" />
+              <img
+                class="result-image-wrapper"
+                src="./src/img/result/result-wrapper-1x.png"
+                alt="memoji"
+                width="174"
+                height="165"
+            /></picture>
+            <p class="result-desk-title">
+              На курсе вы познакомитесь с самыми практичными показателями
+            </p>
+            <p class="result-desc">
+              Просто. Лаконично. Только то, что работает в повседневной жизни
+            </p>
+          </div>
+          <div class="result-title-container">
+            <h2 class="result-title">Что в</h2>
+            <p class="result-subtitle">результате</p>
+          </div>
+          <ul class="result-list list">
+            <li class="result-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/result-image-01-1x.png 1x,
+                    ./src/img/result/result-image-01-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="36"
+                  height="36" />
+                <img
+                  class="result-item-image"
+                  src="./src/img/result/result-image-01-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="36"
+              /></picture>
+              <div class="result-item-content">
+                <span class="result-number">01</span>
+                <p class="result-text">
+                  Вы узнаете о лучшем инструменте для понимания и улучшения
+                  своей жизни
+                </p>
+              </div>
+            </li>
+            <li class="result-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/result-image-02-1x.png 1x,
+                    ./src/img/result/result-image-02-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="36"
+                  height="36" />
+                <img
+                  class="result-item-image"
+                  src="./src/img/result/result-image-02-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="36"
+              /></picture>
+              <div class="result-item-content">
+                <span class="result-number">02</span>
+                <p class="result-text">Поймете, где деньги в вашей жизни</p>
+              </div>
+            </li>
+            <li class="result-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/result-image-03-1x.png 1x,
+                    ./src/img/result/result-image-03-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="36"
+                  height="36" />
+                <img
+                  class="result-item-image"
+                  src="./src/img/result/result-image-03-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="36"
+              /></picture>
+              <div class="result-item-content">
+                <span class="result-number">03</span>
+                <p class="result-text">
+                  Как улучшить финансовую карму и пробить стеклянный потолок
+                </p>
+              </div>
+            </li>
+            <li class="result-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/result-image-04-1x.png 1x,
+                    ./src/img/result/result-image-04-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="36"
+                  height="36" />
+                <img
+                  class="result-item-image"
+                  src="./src/img/result/result-image-04-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="36"
+              /></picture>
+              <div class="result-item-content">
+                <span class="result-number">04</span>
+                <p class="result-text">
+                  Определите свои цели в деньгах и выявите финансовые
+                  ограничения
+                </p>
+              </div>
+            </li>
+            <li class="result-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/result/result-image-05-1x.png 1x,
+                    ./src/img/result/result-image-05-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="36"
+                  height="36" />
+                <img
+                  class="result-item-image"
+                  src="./src/img/result/result-image-05-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="36"
+              /></picture>
+              <div class="result-item-content">
+                <span class="result-number">05</span>
+                <p class="result-text">
+                  Сможете получить персональный план достижения финансовых целей
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="tariffs">
+        <div class="container">
+          <div class="tariffs-title-container">
+            <h2 class="tariffs-title">Варианты</h2>
+            <p class="tariffs-subtitle">участия</p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/result/result-image-05-1x.png 1x,
+                  ./src/img/result/result-image-05-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="36"
+                height="36" />
+              <img
+                class="tariffs-title-image left"
+                src="./src/img/result/result-image-05-1x.png"
+                alt="emoji"
+                width="36"
+                height="36"
+            /></picture>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/result/result-image-05-1x.png 1x,
+                  ./src/img/result/result-image-05-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="36"
+                height="36" />
+              <img
+                class="tariffs-title-image right"
+                src="./src/img/result/result-image-05-1x.png"
+                alt="emoji"
+                width="36"
+                height="36"
+            /></picture>
+          </div>
+          <ul class="tariffs-list list">
+            <li class="tariffs-item">
+              <div class="tariffs-border">
+                <div class="item-title-box">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/tariffs/title-box-01-1x.png 1x,
+                        ./src/img/tariffs/title-box-01-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="48"
+                      height="48" />
+                    <img
+                      class="tariff-image"
+                      src="./src/img/tariffs/title-box-01-1x.png"
+                      alt="emoji"
+                      width="48"
+                      height="48"
+                  /></picture>
+                  <h3 class="tariff-item-title">Самостоятельный</h3>
+                </div>
+                <div class="tariffs-main-box">
+                  <ul class="modules-list">
+                    <li class="modules-item">
+                      <span>1.</span> Волшебный инструмент
+                    </li>
+                    <li class="modules-item">
+                      <span>2.</span> Где твои деньги
+                    </li>
+                    <li class="modules-item">
+                      <span>3.</span> Сколько денег положено по карме или твой
+                      финансовый потенциал
+                    </li>
+                    <li class="modules-item">
+                      <span>4.</span> Возможно ли пробить финансовый потолок и
+                      выйти на новый уровень
+                    </li>
+                    <li class="modules-item">
+                      <span>5.</span> Зачем тебе деньги?
+                    </li>
+                  </ul>
+                  <ul class="adds-list">
+                    <li class="adds-item">Telegram-чат с единомышленниками</li>
+                    <li class="adds-item">Вводный zoom-знакомство</li>
+                    <li class="adds-item">Zoom с ответами на вопросы</li>
+                    <li class="adds-item">
+                      Персональная zoom сессия с пошаговым планом выхода на
+                      $3000-5000+
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="price-box">
+                <p class="price-text">Стоимость участия</p>
+                <p class="price"><span>$200</span> &nbsp; $19</p>
+              </div>
+              <a class="tariffs-btn link" href="">Зареєструватись</a>
+            </li>
+            <li class="tariffs-item purple">
+              <div class="tariffs-border">
+                <div class="item-title-box">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/tariffs/title-box-02-1x.png 1x,
+                        ./src/img/tariffs/title-box-02-2x.png 2x
+                      "
+                      media="(min-width: 320px)"
+                      width="48"
+                      height="48" />
+                    <img
+                      class="tariff-image"
+                      src="./src/img/tariffs/title-box-02-1x.png"
+                      alt="emoji"
+                      width="48"
+                      height="48"
+                  /></picture>
+                  <h3 class="tariff-item-title">Персональный</h3>
+                </div>
+                <div class="tariffs-main-box">
+                  <ul class="modules-list">
+                    <li class="modules-item">
+                      <span>1.</span> Волшебный инструмент
+                    </li>
+                    <li class="modules-item">
+                      <span>2.</span> Где твои деньги
+                    </li>
+                    <li class="modules-item">
+                      <span>3.</span> Сколько денег положено по карме или твой
+                      финансовый потенциал
+                    </li>
+                    <li class="modules-item">
+                      <span>4.</span> Возможно ли пробить финансовый потолок и
+                      выйти на новый уровень
+                    </li>
+                    <li class="modules-item">
+                      <span>5.</span> Зачем тебе деньги?
+                    </li>
+                  </ul>
+                  <ul class="adds-list">
+                    <li class="adds-item">Telegram-чат с единомышленниками</li>
+                    <li class="adds-item">Вводный zoom-знакомство</li>
+                    <li class="adds-item">Zoom с ответами на вопросы</li>
+                    <li class="adds-item">
+                      Персональная zoom сессия с пошаговым планом выхода на
+                      $3000-5000+
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="price-box">
+                <p class="price-text">Стоимость участия</p>
+                <p class="price"><span>$200</span> &nbsp; $19</p>
+              </div>
+              <a class="tariffs-btn link" href="">Зареєструватись</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container">
+          <div class="question-title-container">
+            <h2 class="questions-title">У вас остались вопросы?</h2>
+            <p class="questions-subtitle">
+              Возможно я смогла часть из них предусмотреть и ответить
+            </p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/questions/question-title-1x.png 1x,
+                  ./src/img/questions/question-title-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="20"
+                height="20" />
+              <img
+                class="question-title-image"
+                src="./src/img/questions/question-title-1x.png"
+                alt="emoji"
+                width="20"
+                height="20"
+            /></picture>
+          </div>
+          <div class="faq">
+            <div class="question open isOpen">
+              <div class="question-name">
+                <p>Мне подойдет курс, если я ничего не понимаю в астрологии?</p>
+                <img
+                  class="question-plus"
+                  src="./src/img/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p class="content-text">
+                  Вам не нужно знать астрологию, чтобы получить желаемый
+                  результат от этого курса. Вы легко сможете по инструкции
+                  построить свою Натальную Карту и посмотреть те показатели,
+                  которые там есть
+                </p>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Нужно будет делать какие-то ритуалы?</p>
+                <img
+                  class="question-plus"
+                  src="./src/img/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p class="content-text">
+                  Нет&#41;&#41; Я не про магию. Чтобы денег стало больше - нужно
+                  работать. Но просто больше работать, как “лошадь”, а направить
+                  свои усилия в те сферы, которые дадут наилучший результат.
+                </p>
+              </div>
+            </div>
+            <div class="question">
+              <div class="question-name">
+                <p>Если я не верю в Карму?</p>
+                <img
+                  class="question-plus"
+                  src="./src/img/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p class="content-text">
+                  “Незнание законов Кармы не освобождает от ответственности”.
+                  Неважно, верите вы или нет. Раз вы это читаете, значит вас в
+                  целом интересуют те вопросы, которые мы обсуждали выше. Т.е.
+                  есть желание улучшить качество жизни в целом и финансовую
+                  сферу, в частности. Попробуйте🤗
+                </p>
+              </div>
+            </div>
+            <div class="question last-question">
+              <div class="question-name">
+                <p>
+                  Что такое персональная zoom сессия с пошаговым планом выхода
+                  на $3000-5000+ ?
+                </p>
+                <img
+                  class="question-plus"
+                  src="./src/img/questions-plus.svg"
+                  alt="+"
+                  width="18"
+                  height="18"
+                />
+              </div>
+              <div class="content">
+                <p class="content-text">
+                  Это детальный разбор вашей ситуации, запроса и целей, в
+                  результате которого вы получите пошаговый план выхода на
+                  желаемую сумму с помощью известных мне, практичных
+                  инструментов. Мы будем опираться на показатели денег в вашей
+                  карте и самые актуальные инструменты, которые я использую
+                  ежедневно.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="situation-container">
+            <p class="situation-title">Это детальный разбор</p>
+            <p class="situation-text">
+              вашей ситуации, запроса и целей, в результате которого вы получите
+              пошаговый план выхода на желаемую сумму с помощью известных мне,
+              практичных инструментов. Мы будем опираться на показатели денег в
+              вашей карте и самые актуальные инструменты, которые я использую
+              ежедневно
+            </p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/questions/situation-image-1x.png 1x,
+                  ./src/img/questions/situation-image-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="88"
+                height="88" />
+              <img
+                class="situation-image"
+                src="./src/img/questions/situation-image-1x.png"
+                alt="emoji"
+                width="88"
+                height="88"
+            /></picture>
+          </div>
+          <p class="last-text">
+            ОСТАЛОСЬ ПРОТЯНУТЬ <span>РУКУ И СОРВАТЬ САМЫЙ СОЧНЫЙ ФРУКТ</span>
+          </p>
+          <div class="header-button-container purple">
+            <a class="header-button link" href="">зарегистрироваться</a>
+            <div class="header-sale-mark">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/header/header-mark-purple-1x.png 1x,
+                    ./src/img/header/header-mark-purple-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="68"
+                  height="68" />
+                <img
+                  class="sale-mark"
+                  src="./src/img/header/header-mark-purple-1x.png"
+                  alt="sale"
+                  width="68"
+                  height="68"
+              /></picture>
+              <p class="sale-number">-90%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bonus black">
+        <div class="container">
+          <div class="bonus-container">
+            <p class="bonus-title">🎁 Бонусы 🎁</p>
+            <picture
+              ><source
+                srcset="
+                  ./src/img/bonus/bonus-image-1x.png 1x,
+                  ./src/img/bonus/bonus-image-2x.png 2x
+                "
+                media="(min-width: 320px)"
+                width="235"
+                height="235" />
+              <img
+                class="bonus-image"
+                src="./src/img/bonus/bonus-image-1x.png"
+                alt="bonus"
+                width="235"
+                height="235"
+            /></picture>
+            <ul class="bonus-list list">
+              <li class="bonus-item">
+                <span>Вебинар</span> “Как с 0 получить профессию астролога и
+                начать зарабатывать от 3000$”
+              </li>
+              <li class="bonus-item">
+                <span>Мастер-класс</span> “Разрешаю себе быть Богатой”
+              </li>
+            </ul>
+            <div id="countdown-three" class="countdown">
+              <div class="countdown-number">
+                <span class="hours countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="minutes countdown-time"></span>
+              </div>
+              <div><span class="countdown-doubledot"></span></div>
+              <div class="countdown-number">
+                <span class="seconds countdown-time"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/jquery-3.7.0.min.js" type="module"></script>
+    <script src="./src/js/faq.js" type="module"></script>
+    <script type="module" src="./src/js/timer.js"></script>
+  </body>
 </html>

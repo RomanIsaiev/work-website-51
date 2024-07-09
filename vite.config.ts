@@ -5,14 +5,14 @@ export default () => {
     plugins: [
       viteImagemin({
         gifsicle: {
-          optimizationLevel: 7,
+          optimizationLevel: 2,
           interlaced: false,
         },
         optipng: {
-          optimizationLevel: 7,
+          optimizationLevel: 2,
         },
         mozjpeg: {
-          quality: 20,
+          quality: 80,
         },
         pngquant: {
           quality: [0.8, 0.9],
