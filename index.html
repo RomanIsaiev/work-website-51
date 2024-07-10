@@ -103,7 +103,9 @@
           </ul>
         </div>
         <div class="header-button-container">
-          <a class="header-button link" href="">зарегистрироваться</a>
+          <a class="header-button link" data-scroll href="#register"
+            >зарегистрироваться</a
+          >
           <div class="header-sale-mark">
             <picture
               ><source
@@ -392,7 +394,9 @@
             <p class="register-text">👇🏼👇🏼👇🏼</p>
           </div>
           <div class="header-button-container">
-            <a class="header-button link" href="">зарегистрироваться</a>
+            <a class="header-button link" href="#register"
+              >зарегистрироваться</a
+            >
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -666,7 +670,7 @@
           </ul>
         </div>
       </section>
-      <section class="tariffs">
+      <section class="tariffs" id="register">
         <div class="container">
           <div class="tariffs-title-container">
             <h2 class="tariffs-title">Варианты</h2>
@@ -755,13 +759,18 @@
                       $3000-5000+
                     </li>
                   </ul>
+                  <p class="access">
+                    Срок доступа к материалам: <span>30 дней</span>
+                  </p>
                 </div>
               </div>
               <div class="price-box">
                 <p class="price-text">Стоимость участия</p>
                 <p class="price"><span>$200</span> &nbsp; $19</p>
               </div>
-              <a class="tariffs-btn link" href="">Зареєструватись</a>
+              <button type="button" class="tariffs-btn" data-modal-open>
+                Зарегистрироваться
+              </button>
             </li>
             <li class="tariffs-item purple">
               <div class="tariffs-border">
@@ -813,13 +822,18 @@
                       $3000-5000+
                     </li>
                   </ul>
+                  <p class="access">
+                    Срок доступа к материалам: <span>50 дней</span>
+                  </p>
                 </div>
               </div>
               <div class="price-box">
                 <p class="price-text">Стоимость участия</p>
                 <p class="price"><span>$1200</span> &nbsp; $108</p>
               </div>
-              <a class="tariffs-btn link" href="">Зареєструватись</a>
+              <button type="button" class="tariffs-btn" data-modal-open>
+                Зарегистрироваться
+              </button>
             </li>
           </ul>
         </div>
@@ -965,7 +979,9 @@
             ОСТАЛОСЬ ПРОТЯНУТЬ <span>РУКУ И СОРВАТЬ САМЫЙ СОЧНЫЙ ФРУКТ</span>
           </p>
           <div class="header-button-container purple">
-            <a class="header-button link" href="">зарегистрироваться</a>
+            <a class="header-button link" href="#register"
+              >зарегистрироваться</a
+            >
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -1034,8 +1050,26 @@
         </div>
       </section>
     </main>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <script
+          id="7573bc9bdf147329196a30748e16e6a5443f2d76"
+          src="https://vikabardadym.in.ua/pl/lite/widget/script?id=1224431"
+        ></script>
+      </div>
+    </div>
     <script src="./src/js/jquery-3.7.0.min.js" type="module"></script>
     <script src="./src/js/faq.js" type="module"></script>
     <script type="module" src="./src/js/timer.js"></script>
+    <script type="module" src="./src/js/js-modal.js"></script>
+    <script type="module" src="./src/js/scroll.js"></script>
   </body>
 </html>
