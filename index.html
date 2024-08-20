@@ -45,7 +45,10 @@
         <div class="header-first-container">
           <div class="header-start-container">
             <p class="header-course">онлайн-курс</p>
-            <p class="header-course">СТАРТ 21 июля</p>
+            <p class="header-course">
+              СТАРТ <span id="dateElement"></span>
+              <span id="monthElement"></span>
+            </p>
           </div>
           <div class="header-title-container">
             <h1 class="header-title">Твоя денежная карма</h1>
@@ -757,7 +760,7 @@
                       width="48"
                       height="48"
                   /></picture>
-                  <h3 class="tariff-item-title">Самостоятельный</h3>
+                  <h3 class="tariff-item-title">Оптимальный</h3>
                 </div>
                 <div class="tariffs-main-box">
                   <ul class="modules-list">
@@ -782,26 +785,34 @@
                   <ul class="adds-list">
                     <li class="adds-item">Telegram-чат с единомышленниками</li>
                     <li class="adds-item">Вводный zoom-знакомство</li>
-                    <li class="adds-item">Zoom с ответами на вопросы</li>
                     <li class="adds-item">
+                      <span>Бонус:</span> Вебинар &#34;Как с 0 получить
+                      профессию астролога и начать зарабатывать от 3000$&#34;
+                    </li>
+                    <li class="adds-item">
+                      <span>Бонус:</span> Мастер-класс &#34;Разрешаю себе быть
+                      Богатой&#34;
+                    </li>
+                    <!-- <li class="adds-item">Zoom с ответами на вопросы</li> -->
+                    <!-- <li class="adds-item">
                       Zoom сессия с Викторией с пошаговым планом выхода на
                       $3000-5000+
-                    </li>
+                    </li> -->
                   </ul>
                   <p class="access">
-                    Срок доступа к материалам: <span>30 дней</span>
+                    Срок доступа к материалам: <span>60 дней</span>
                   </p>
                 </div>
               </div>
               <div class="price-box">
                 <p class="price-text">Стоимость участия</p>
-                <p class="price"><span>$200</span> &nbsp; $25</p>
+                <p class="price"><span>3750 грн</span> &nbsp;375 грн</p>
               </div>
               <button type="button" class="tariffs-btn" data-modal-open>
                 Зарегистрироваться
               </button>
             </li>
-            <li class="tariffs-item purple">
+            <!-- <li class="tariffs-item purple">
               <div class="tariffs-border">
                 <div class="item-title-box">
                   <picture
@@ -864,8 +875,202 @@
               <button type="button" class="tariffs-btn" data-modal-open>
                 Зарегистрироваться
               </button>
-            </li>
+            </li> -->
           </ul>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews-container">
+            <div class="reviews-title-container">
+              <h2 class="reviews-title">отзывы</h2>
+            </div>
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-01-1x.png 1x,
+                        ./src/img/reviews/review-01-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-01-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-02-1x.png 1x,
+                        ./src/img/reviews/review-02-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-02-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-03-1x.png 1x,
+                        ./src/img/reviews/review-03-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-03-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-04-1x.png 1x,
+                        ./src/img/reviews/review-04-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-04-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-05-1x.png 1x,
+                        ./src/img/reviews/review-05-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-05-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-06-1x.png 1x,
+                        ./src/img/reviews/review-06-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-06-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-07-1x.png 1x,
+                        ./src/img/reviews/review-07-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-07-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-08-1x.png 1x,
+                        ./src/img/reviews/review-08-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-08-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-09-1x.png 1x,
+                        ./src/img/reviews/review-09-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-09-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/reviews/review-10-1x.png 1x,
+                        ./src/img/reviews/review-10-2x.png 2x
+                      "
+                      width="280"
+                      height="280" />
+                    <img
+                      class="review-image"
+                      src="./src/img/reviews/review-10-1x.png"
+                      alt="review"
+                      width="280"
+                      height="280"
+                  /></picture>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="hand-move-container">
+              <img
+                src="./src/img/hand-move.svg"
+                width="25"
+                height="25"
+                class="hand-move-icon"
+                alt="hand-move"
+              />
+              <p class="hand-move-text">гортай щоб побачити більше</p>
+            </div>
+          </div>
         </div>
       </section>
       <section class="questions">
@@ -1101,5 +1306,7 @@
     <script type="module" src="./src/js/timer.js"></script>
     <script type="module" src="./src/js/js-modal.js"></script>
     <script type="module" src="./src/js/scroll.js"></script>
+    <script type="module" src="./src/js/changeDate.js"></script>
+    <script type="module" src="./src/js/swiper.js"></script>
   </body>
 </html>
